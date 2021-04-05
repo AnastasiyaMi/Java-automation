@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="XMLParserSuite" verbose="1" >
+    <test name="test for xml parser" >
+        <classes>
+            <class name="XMLParserTestNGTest" />
+        </classes>
+    </test>
+</suite>
+
+

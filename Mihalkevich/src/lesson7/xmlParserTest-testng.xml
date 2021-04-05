@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CollectionsSuite" verbose="1" >
+    <test name="test for array list" >
+        <classes>
+            <class name="collections.MyArrayListTest" />
+        </classes>
+    </test>
+    <test name="test for stack">
+        <classes>
+            <class name="collections.MyStackTest"/>
+        </classes>
+    </test>
+</suite>
+
+
